@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+	    "name": "Python: run poetry pytest",
+	    "type": "python",
+	    "request": "launch",
+	    "pythonPath": "${workspaceFolder}/anaconda3/envs/poetry_conda",
+	    "cwd": "${workspaceFolder}",
+	    "module": "pytest",
+	    "args": [
+	    ],
+	    "console": "integratedTerminal",
+	    "justMyCode": false,
+	}
+    ]
+}
