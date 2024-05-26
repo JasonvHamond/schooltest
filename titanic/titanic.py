@@ -22,7 +22,7 @@ def get_data(path):
 def split_data(df, X_drop_cols, y_cols):
     '''
     This function splits the data into X and y values
-    Parameters: 
+    Parameters:
     - df: The data you want to split
     - X_drop_cols: The columns you want to drop in the X data
     - y_cols: The columns you want to keep in the y data.
@@ -43,7 +43,7 @@ def train_score_model(model, X_train, X_test, y_train, y_test):
     - X_train: The X data to train the model with
     - X_test: The X data to test the model with
     - y_train: The y data to train the model with
-    - y_test: The 
+    - y_test: The
     '''
     # Train the model.
     model.fit(X_train, y_train)
@@ -72,3 +72,6 @@ lr = LogisticRegression()
 
 lr, score = train_score_model(lr, X_train, X_test, y_train, y_test)
 print(score)
+
+def trailingspace():
+    print("Hello World!")
